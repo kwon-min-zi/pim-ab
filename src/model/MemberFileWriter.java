@@ -15,7 +15,7 @@ public class MemberFileWriter {
 	public void saveMember(ArrayList<Member> memberList) {
 		for(Member m : memberList) {
 			try {
-				fw.write(m.getUid() + "\t");
+				fw.write(m.getUid() + "\t"); //\t로 구부해서 작성
 				fw.write(m.getUpw() + "\t");
 				fw.write(m.getUname() + "\n");
 				fw.flush();
