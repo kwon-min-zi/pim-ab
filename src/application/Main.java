@@ -17,6 +17,7 @@ public class Main extends Application {
     private BorderPane rootBorderPane;
     private AnchorPane memberAnchorPane;
 
+    
     @Override
 	public void start(Stage primaryStage) {
 		try {

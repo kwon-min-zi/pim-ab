@@ -50,6 +50,7 @@ public class MemberDAO {
 		return ret;
 	}
 	
+	
 	public int insert(Member member) {
 		int ret = -1;
 		try {

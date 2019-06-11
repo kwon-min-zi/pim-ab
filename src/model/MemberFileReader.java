@@ -10,6 +10,7 @@ import javafx.beans.property.SimpleStringProperty;
 public class MemberFileReader {
 	Scanner sc = null;
 	
+	
 	public MemberFileReader(File f) throws FileNotFoundException {
 		sc = new Scanner(f);
 	}

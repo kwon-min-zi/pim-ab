@@ -49,6 +49,7 @@ public class MemberServiceImpl implements MemberService {
 			return 0;
 	}
 
+	
 	@Override
 	public int delete(Member member) {
 		if(memberDAO.delete(member) < 0)
